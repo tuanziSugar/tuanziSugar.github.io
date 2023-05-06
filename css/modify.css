@@ -1,0 +1,41 @@
+#content-inner>#post>.top-img {
+  height: 20.5rem !important;
+}
+#footer:before {
+  background-color: rgba(255,255,255,0);
+}
+[data-theme='dark'] #footer:before {
+  background-color: rgba(0,0,0,0.5);
+}
+#footer-wrap,
+#footer-wrap a {
+  color: #c29191;
+  -webkit-transition: unset;
+  -moz-transition: unset;
+  -o-transition: unset;
+  -ms-transition: unset;
+  transition: unset;
+}
+[data-theme='dark'] #footer-wrap,
+[data-theme='dark'] #footer-wrap a {
+  color: var(--light-grey);
+}
+/* 文章页背景 */
+.layout_post>#post {
+/* 以下代表透明度为0.5 可以自行修改*/
+  background: rgba(255,255,255,0.8);
+}
+/* 所有页面背景 */
+#aside_content .card-widget,
+#recent-posts>.recent-post-item,
+.layout_page>div:first-child:not(.recent-posts),
+.layout_post>#page,
+.layout_post>#post,
+.read-mode .layout_post>#post {
+/* 以下代表透明度为0.5 */
+  background: rgba(255,255,255,0.8);
+}
+/*侧边卡片的透明度 */
+:root {
+  --card-bg: rgba(255,255,255,0.8);
+}
